@@ -5,8 +5,8 @@ import "./globals.css";
 import { DappWithProviders } from "../components/dapp-with-providers";
 
 export const metadata: Metadata = {
-  title: "ShadcnUI Dapp Template",
-  description: "A template to start building a Dapp using ShadcnUI",
+  title: "Dapp Template",
+  description: "A template to start building a Dapp",
 };
 
 export default function RootLayout({
