@@ -1,7 +1,37 @@
 {
-  "name": "shadcn-dapp",
+  "name": "dapp-template",
   "version": "0.1.0",
   "private": true,
+  "description": "A template to start building a Dapps on EVM",
+  "author": {
+    "name": "Kevo",
+    "email": "akerimberdi@gmail.com",
+    "url": "https://github.com/fac3m4n"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/fac3m4n/dapp-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fac3m4n/dapp-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fac3m4n/dapp-template/issues"
+  },
+  "keywords": [
+    "dapp",
+    "template",
+    "shadcn",
+    "ui",
+    "nextjs",
+    "evm",
+    "web3",
+    "ethereum",
+    "solidity",
+    "typescript",
+    "wagmi",
+    "viem",
+    "rainbowkit"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
