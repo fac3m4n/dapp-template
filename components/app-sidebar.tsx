@@ -2,10 +2,10 @@
 
 import * as React from "react";
 import {
+  Blocks,
   BookOpen,
   GalleryVerticalEnd,
   Home,
-  SquareTerminal,
 } from "lucide-react";
 
 import { NavMain } from "@/components/nav-main";
@@ -30,18 +30,18 @@ const data = {
   navMain: [
     {
       title: "Home",
-      url: "#",
+      url: "/",
       icon: Home,
     },
     {
-      title: "Playground",
-      url: "#",
-      icon: SquareTerminal,
+      title: "Components",
+      url: "/components",
+      icon: Blocks,
       isActive: true,
     },
     {
       title: "Docs",
-      url: "#",
+      url: "/docs",
       icon: BookOpen,
     },
   ],

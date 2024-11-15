@@ -46,7 +46,7 @@ export const DappWithProviders = ({
   return (
     <WagmiProvider config={wagmiConfig}>
       <QueryClientProvider client={queryClient}>
-        <ProgressBar height="4px" color="#22d3ee" />
+        <ProgressBar height="4px" color="black" />
         <RainbowKitProvider>
           <Dapp>{children}</Dapp>
         </RainbowKitProvider>
