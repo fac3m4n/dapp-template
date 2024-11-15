@@ -4,11 +4,12 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { WagmiProvider } from "wagmi";
 import { wagmiConfig } from "@/services/web3/wagmiConfig";
 import { AppProgressBar as ProgressBar } from "next-nprogress-bar";
-import { RainbowKitProvider } from "@rainbow-me/rainbowkit";
+import { RainbowKitProvider, ConnectButton } from "@rainbow-me/rainbowkit";
 import { Toaster } from "./ui/toaster";
 import { SidebarInset, SidebarProvider, SidebarTrigger } from "./ui/sidebar";
 import { AppSidebar } from "./app-sidebar";
 import { useInitializeNativeCurrencyPrice } from "@/hooks";
+import "@rainbow-me/rainbowkit/styles.css";
 
 const Dapp = ({ children }: { children: React.ReactNode }) => {
   useInitializeNativeCurrencyPrice();
@@ -22,6 +23,7 @@ const Dapp = ({ children }: { children: React.ReactNode }) => {
             <div className="flex items-center gap-2 px-4">
               <SidebarTrigger className="-ml-1" />
             </div>
+            <ConnectButton />
           </header>
           {children}
         </SidebarInset>
