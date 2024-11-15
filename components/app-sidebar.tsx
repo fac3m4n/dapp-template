@@ -166,7 +166,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         <NavProjects projects={data.projects} />
       </SidebarContent>
       <SidebarFooter className="flex justify-center items-center text-sm text-muted-foreground">
-        Made with ❤️ by Kevo
+        Sidebar Footer
       </SidebarFooter>
       <SidebarRail />
     </Sidebar>
